@@ -1,0 +1,201 @@
+body{
+  margin: 0;
+}
+
+h1{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 2%;
+  font-family: palatino linotype;
+}
+
+.nav-brand{
+  font-family: GARAMOND;
+}
+
+
+.contacts{
+  font-size: 26px;
+  color: #000000;
+  text-decoration:  none;
+
+}
+
+h7{
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+
+}
+
+.text{
+  text-decoration: none ;
+  color: #000000;
+}
+
+.header {
+padding: 15px;
+}
+
+.header__inner{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+padding: 30px;
+border-bottom: 1px solid#515369;
+
+}
+
+.nav-brand{
+  color:#515369;
+  text-decoration: none;
+}
+
+  .nav{
+    display: flex;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+    font-family:GARAMOND;
+  }
+
+  .nav__link{
+    margin-left: 50px;
+  color:#515369;
+  text-decoration:none;
+  opacity: 0.75;
+
+  transition: opacity 0.1s
+  linear;
+
+  }
+
+  .nav__link:first-child{
+    margin-left: 0;
+  }
+
+  .nav__link:hover{
+    opacity: 1;
+    text-decoration: underline;
+  }
+
+  .header__logo{
+    font-size: 30px;
+    font-weight: 700;
+    color:#515369;
+  }
+
+  .page-dark{
+    background-color: #515369;
+    
+  }
+
+  .footer{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-nav{
+    flex:0 0 50%;
+    display: flex;
+    justify-content: space-between;
+    color: #black;
+  }
+
+  .footer-list{
+    list-style-type: none;
+    padding-left: ;
+
+  }
+
+  .footer-list-link{
+    color:#FF4500		;
+    text-decoration: none;
+    font-size: 15px;
+
+  }
+
+  .footer-list-item{
+    margin-bottom: 4px;
+    color: #fff;
+  }
+
+
+
+#features{
+  padding: 5% 17%;
+  text-align: center;
+}
+
+.feature-box{
+  padding: 5%;
+
+}
+
+p{
+  color:#8f8f8f;
+}
+
+.icon{
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+
+
+/*register*/
+
+
+
+
+
+.container  {
+  color: white;
+  font-family: sans-serif;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+.registartion-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: sans-serif;
+  background-color: #154a68;
+  padding: 5%;
+}
+
+.registartion-form input,
+.registartion-form select,
+.registartion-form textarea {
+  border: none;
+  padding: 5px;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+
+.registartion-form input:focus,
+.registartion-form textarea:focus {
+  box-shadow: 3px 3px 10px rgb(228, 228, 228), -3px -3px 10px rgb(224, 224, 224);
+}
+
+.registartion-form .submit {
+  width: 100%;
+  padding: 8px 0;
+  font-size: 20px;
+  color: rgb(44, 44, 44);
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.registartion-form .submit:hover {
+  box-shadow: 3px 3px 6px rgb(255, 214, 176);
+}

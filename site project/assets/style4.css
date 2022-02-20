@@ -1,0 +1,178 @@
+body{
+  margin: 0;
+}
+
+h1{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 2%;
+  font-family: palatino linotype;
+}
+
+.contacts{
+  font-size: 26px;
+  color: #000000;
+  text-decoration:  none;
+
+}
+
+.nav-brand{
+  font-family: GARAMOND;
+}
+
+h7{
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+
+}
+
+.text{
+  text-decoration: none ;
+  color: #000000;
+}
+
+.header {
+padding: 15px;
+}
+
+.header__inner{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+padding: 30px;
+border-bottom: 1px solid#515369;
+
+}
+
+.nav-brand{
+  color:#515369;
+  text-decoration: none;
+}
+
+  .nav{
+    display: flex;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;  font-family:GARAMOND;
+  }
+
+  .nav__link{
+    margin-left: 50px;
+  color:#515369;
+  text-decoration:none;
+  opacity: 0.75;
+
+  transition: opacity 0.1s
+  linear;
+
+  }
+
+  .nav__link:first-child{
+    margin-left: 0;
+  }
+
+  .nav__link:hover{
+    opacity: 1;
+    text-decoration: underline;
+  }
+
+  .header__logo{
+    font-size: 30px;
+    font-weight: 700;
+    color:#515369;
+  }
+
+  .page-dark{
+
+    background-color: #515369;
+
+  }
+
+  .footer{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-nav{
+    flex:0 0 50%;
+    display: flex;
+    justify-content: space-between;
+    color: #black;
+  }
+
+  .footer-list{
+    list-style-type: none;
+    padding-left: ;
+
+  }
+
+  .footer-list-link{
+    color:#FF4500		;
+    text-decoration: none;
+    font-size: 15px;
+
+  }
+
+  .footer-list-item{
+    margin-bottom: 4px;
+    color: #fff;
+
+  }
+
+.container{
+  padding: 0% 10% 1%;
+}
+
+  #testimonials{
+
+    text-align: center;
+    background-color: #716B85;
+    color: #fff;
+  }
+h1{
+  color: #515369;
+}
+  h5{
+    font-weight: Bold;
+    color: #fff;
+  }
+  em{
+
+    color: #C4C4C4;
+  }
+
+  .carousel-item{
+      padding: 7% 15%;
+  }
+
+
+
+  #picHolder {
+      position: absolute;
+      top: 90px;
+      left: 290px;
+      width: 520px;
+      height: 300px;
+      padding: 10px;
+      border: 6px solid #ddd;
+
+      background: #fff no-repeat 10px 10px;
+      display: none;
+  }
+
+  #picContainer {
+      width: 1320px;
+      padding: 5px;
+      border: 4px solid #ccc;
+      margin: 30px 0;
+  }
+
+  #picContainer img {
+      width: 100px;
+      border: 2px solid #ddd;
+      cursor: pointer;
+      padding: 5px;
+      margin: 7px;
+  }
